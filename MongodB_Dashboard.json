@@ -16,7 +16,7 @@
   "gnetId": null,
   "graphTooltip": 0,
   "id": 48,
-  "iteration": 1596438953550,
+  "iteration": 1598480042315,
   "links": [],
   "panels": [
     {
@@ -3255,8 +3255,9 @@
       {
         "allValue": null,
         "current": {
-          "text": "10.143.1.95:9216",
-          "value": "10.143.1.95:9216"
+          "selected": false,
+          "text": "All",
+          "value": "$__all"
         },
         "datasource": "Prometheus",
         "definition": "label_values(mongodb_connections, instance)",
